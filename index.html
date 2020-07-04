@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" >
+    <link rel="stylesheet" href="style.css" >
+    <title>Döviz Çevirici</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-danger">
+        <div class="container justify-content-center">
+            <a href="" class="navbar-brand">Döviz Çevirici</a>
+        </div>
+    </nav>
+        
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <div class="form-group">
+                    <select id="ilkPara" class="custom-select">
+                        <option>Para Birimi Seçiniz</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select id="ikinciPara" class="custom-select">
+                        <option>Para Birimi Seçiniz</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="number" id="miktar" class="form-group" placeholder="Miktar">
+                </div>
+                <button class="btn btn-primary btn-block" id="btnCevir">Çevir</button>
+                <div class="text-danger mt-3 text-center" id="sonuc">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-danger" style="text-align: center;position: fixed; bottom: 0px; left: 0px; width: 100%; height: 50px; padding:15px;color: blanchedalmond;">
+        <h5>Author: Mücahit ŞAHİN</h5>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
